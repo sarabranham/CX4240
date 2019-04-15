@@ -44,8 +44,17 @@ Our goals for this section were to:
 ### Understanding Feature Distributions
 <img src="FeatureDistrib1.png"> <img src="FeatureDistrib2.png">
 <br />
-<img src="Accuracy5.png ">
 
+### Specific and Binary Approaches
+<img src="FeatureDistribBinary.png"> <img src="FeatureDistribDoS.png">
+
+### Comparing Outputs
+<img src="Accuracy5.png">
+<img src="AccuracySpecific.png">
+<img src="AccuracyBinary.png">
+<img src="AccuracyDoS.png">
+<img src="AccuracyBinaryDoS.png">
+<img src="AccuracyXGB.png">
 
 ### References
 1. A Review on Cyber Security Datasets for Machine Learning Algorithms
