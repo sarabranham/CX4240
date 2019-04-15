@@ -12,12 +12,12 @@
 * The number of records in the train and test sets are reasonable
 * No need to randomly select a small portion
 * Consists of 1,074,992 distinct records, each of which contains 41 features and is labeled as either normal or as one of four attack types:
-    * **Denial of Service Attack (DoS):** denies legitimate users or requests for a machine
-    * **User to Root Attack (U2R):** exploits some vulnerability to gain root access to the system
-    * **Remote to Local Attack (R2L):** the attacker has the ability to send packets to a machine over a network but does not have an account on that machine and exploits some vulnerability to gain local access as a user of that machine
+	* **Denial of Service Attack (DoS):** denies legitimate users or requests for a machine
+	* **User to Root Attack (U2R):** exploits some vulnerability to gain root access to the system
+	* **Remote to Local Attack (R2L):** the attacker has the ability to send packets to a machine over a network but does not have an account on that machine and exploits some vulnerability to gain local access as a user of that machine
     * **Probing Attack:** gathers information about a network of computers for the purpose of circumventing security controls
 
-<br />
+### Features
 * The KDD dataset has three types of features:
 	* **Basic Features:** all the attributes that can be extracted from a TCP/IP connection, most of which lead to an implicit delay in detection
 	* **Trafﬁc Features:** features that are computed with respect to a window interval, divided into two groups:
@@ -40,12 +40,10 @@
 Our goals for this section were to:
 1. Explore the dataset
 2. Establish a baseline for how well we can classify with minimal modifications
-<br />
-** Understanding Feature Distributions **
-<img src="FeatureDistrib1.png">
-<img src="FeatureDistrib2.png">
 
-<br/>
+### Understanding Feature Distributions
+<img src="FeatureDistrib1.png"> <img src="FeatureDistrib2.png">
+<br />
 <img src="Accuracy5.png ">
 
 
