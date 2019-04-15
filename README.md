@@ -57,16 +57,15 @@ Our goals for this section were to:
 <img src="AccuracyXGB.png">
 
 ## Conclusion
-* How did we evaluate our approach?
-	* Performance vs. Random
-* What are results?
-	* Fewer labels = better performing
-* How did we compare our method to other methods?
-	* Exploratory
-* What is your major achievement?
-	* XGBoost
-* Future work?
-	* Chain the specific classifiers for a manual ensemble approach to see if it beats canned library implementations
+* Simplifying the problem allowed us to have a better output - preprocessing matters
+	* Isolating Labels
+	* Binary vs. Categorical
+	* Test/Train Split
+* We evaluated the performance of each implementation by comparing it to other models, binary versions, and the expected random output
+* We took an exploratory approach and focused on the accuracy metric for the sake of simplicity, which allowed us to compare each model to other models.
+* Our major achievement was the XGBoost approach, which achieved 99% accuracy after we combined and randomly sampled our datasets.
+	* Note: Runtime of SVM and XGBoost
+* In the future we could try a manual ensemble approach with our specific models and compare the runtime and accuracy to the library implementations of Random Forest, AdaBoost, and XGBoost.
 
 
 ### References
