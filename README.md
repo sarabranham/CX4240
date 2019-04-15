@@ -1,4 +1,5 @@
-# An Exploratory Analysis into Preprocessing Techniques and Network Attacks
+# An Exploratory Analysis of Preprocessing Techniques and Network Attacks
+### Sara Branham and Caroline Repke
 
 ## Problem Background:
 * Machine learning techniques are a primary tool for analyzing network traffic and detecting cybersecurity attacks.
