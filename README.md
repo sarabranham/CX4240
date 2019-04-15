@@ -36,25 +36,38 @@
 * Why do you think you approach can effectively solve the problem?
     * Our goal is purely specific to this data set, so we can take shortcuts and make assumptions
 
-## Part 1: General
+## General and Specific Implementations
 Our goals for this section were to:
 1. Explore the dataset
 2. Establish a baseline for how well we can classify with minimal modifications
+3. Optimize our approach
 
 ### Understanding Feature Distributions
 <img src="FeatureDistrib1.png"> <img src="FeatureDistrib2.png">
-<br />
-
-### Specific and Binary Approaches
+<br/>
 <img src="FeatureDistribBinary.png"> <img src="FeatureDistribDoS.png">
 
 ### Comparing Outputs
-<img src="Accuracy5.png">
-<img src="AccuracySpecific.png">
-<img src="AccuracyBinary.png">
-<img src="AccuracyDoS.png">
-<img src="AccuracyBinaryDoS.png">
+<img src="Accuracy5.png"> <img src="AccuracyBinary.png">
+<br/>
+<img src="AccuracyDoS.png"> <img src="AccuracyBinaryDoS.png">
+<br/>
+<img src="AccuracySpecific.png"> <img src="AccuracySpecificBinary.png">
+<br/>
 <img src="AccuracyXGB.png">
+
+## Conclusion
+* How did we evaluate our approach?
+	* Performance vs. Random
+* What are results?
+	* Fewer labels = better performing
+* How did we compare our method to other methods?
+	* Exploratory
+* What is your major achievement?
+	* XGBoost
+* Future work?
+	* Chain the specific classifiers for a manual ensemble approach to see if it beats canned library implementations
+
 
 ### References
 1. A Review on Cyber Security Datasets for Machine Learning Algorithms
