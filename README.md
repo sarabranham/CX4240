@@ -19,11 +19,11 @@
 
 <br />
 * The KDD dataset has three types of features:
-    * **Basic Features:** all the attributes that can be extracted from a TCP/IP connection, most of which lead to an implicit delay in detection
-    * **Trafﬁc Features:** features that are computed with respect to a window interval, divided into two groups:
-        * "Same Host” features: examine only the connections in the past 2 seconds that have the same destination host as the current connection, also calculate statistics related to protocol behavior, service, etc.
-        * "Same Service” features: examine only the connections in the past 2 seconds that have the same service as the current connection
-    * **Content Features:** features to be able to look for suspicious behavior in the data portion of the packets (R2L and U2R), e.g., number of failed login attempts
+	* **Basic Features:** all the attributes that can be extracted from a TCP/IP connection, most of which lead to an implicit delay in detection
+	* **Trafﬁc Features:** features that are computed with respect to a window interval, divided into two groups:
+  		* "Same Host” features: examine only the connections in the past 2 seconds that have the same destination host as the current connection, also calculate statistics related to protocol behavior, service, etc.
+  		* "Same Service” features: examine only the connections in the past 2 seconds that have the same service as the current connection
+	* **Content Features:** features to be able to look for suspicious behavior in the data portion of the packets (R2L and U2R), e.g., number of failed login attempts
 
 ## Approach
 * What have people already done?
@@ -40,10 +40,12 @@
 Our goals for this section were to:
 1. Explore the dataset
 2. Establish a baseline for how well we can classify with minimal modifications
-
+<br />
 ** Understanding Feature Distributions **
 <img src="FeatureDistrib1.png">
 <img src="FeatureDistrib2.png">
+
+<br/>
 <img src="Accuracy5.png ">
 
 
