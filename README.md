@@ -42,9 +42,9 @@ Our goals for this section were to:
 2. Establish a baseline for how well we can classify with minimal modifications
 
 ** Understanding Feature Distributions **
-<img src="imgs/FeatureDistrib1.png">
-<img src="imgs/FeatureDistrib2.png">
-<img src="imgs/Accuracy5.png ">
+<img src="FeatureDistrib1.png">
+<img src="FeatureDistrib2.png">
+<img src="Accuracy5.png ">
 
 
 ### References
