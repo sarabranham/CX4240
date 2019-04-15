@@ -29,15 +29,11 @@
 	* **Content Features:** features to be able to look for suspicious behavior in the data portion of the packets (R2L and U2R), e.g., number of failed login attempts
 
 ## Approach
-* What have people already done?
-    * AI², which incorporates expert input in a system that combines supervised and unsupervised learning to detect 85% of attacks [2].
-    * Chowdhury, et al. displays network information as a graph and automatically identify botnet attack by using clustering algorithms.
-
-* What is new in your approach?
-    * We will develop our project while holding an unbiased and purely educational perspective. We are not a company with any stake and we are not competing in the competition, so we aren't trying to solve the problem.
-
-* Why do you think you approach can effectively solve the problem?
-    * Our goal is purely specific to this data set, so we can take shortcuts and make assumptions
+* Precedent
+	* AI², which incorporates expert input in a system that combines supervised and unsupervised learning to detect 85% of attacks [2].
+	* Chowdhury, et al. displays network information as a graph and automatically identify botnet attack by using clustering algorithms.
+* Our approach is different because we developed our project while holding an unbiased and purely educational perspective. We are not a company with any stake and we are not competing in the competition, so we aren't trying to solve the problem - we just want to understand it.
+* We think we can effectively solve this problem because goal is purely specific to this data set, so we can take shortcuts and make assumptions
 
 ## General and Specific Implementations
 Our goals for this section were to:
