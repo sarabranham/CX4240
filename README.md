@@ -1,3 +1,5 @@
+# An Exploratory Analysis into Preprocessing Techniques and Network Attacks
+
 ## Problem Background:
 * Machine learning techniques are a primary tool for analyzing network traffic and detecting cybersecurity attacks.
 * The National Institute of Standards in Technology reported that in 2017, American companies lost 65.6 billion dollars from IT attacks [1].
