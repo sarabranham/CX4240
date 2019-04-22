@@ -3,6 +3,7 @@
 
 ## Problem Background:
 * Machine learning techniques are a primary tool for analyzing network traffic and detecting cybersecurity attacks.
+    *  Given that these cybersecurity attacks have become more sophisticated and distributed over the years due to our increasingly data driven society, network security has become a very significant issue.
     * Military, government, and commercial operations as well as civilians are affected daily by cybersecurity vulnerabilities. 
     * The National Institute of Standards in Technology reported that in 2017, American companies lost 65.6 billion dollars from IT attacks [1].
 * Security industry is dependent on costly handling of enormous datasets that is done by hand.
