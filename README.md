@@ -17,10 +17,10 @@
 * The number of records in the train and test sets are reasonable
 * No need to randomly select a small portion
 * Consists of 1,074,992 distinct records, each of which contains 41 features and is labeled as either normal or as one of four attack types:
-	* **Denial of Service Attack (DoS):** denies legitimate users or requests for a machine
-	* **User to Root Attack (U2R):** exploits some vulnerability to gain root access to the system
-	* **Remote to Local Attack (R2L):** the attacker has the ability to send packets to a machine over a network but does not have an account on that machine and exploits some vulnerability to gain local access as a user of that machine
-    * **Probing Attack:** gathers information about a network of computers for the purpose of circumventing security controls
+	* **Denial of Service Attack (DoS):** the attacker makes some computing or memory resource too busy/full to handle legitimate requests or denies legitimate users access to a machine
+	* **User to Root Attack (U2R):** the attacker starts out with access to a normal user account on the system and exploits some vulnerability to gain root access to the system
+	* **Remote to Local Attack (R2L):** he attacker has the ability to send packets to a machine over a network but does not have an account on that machine and exploits some vulnerability to gain local access as a user of that machine
+    * **Probing Attack:** attempt to gather information about a network of computers for the purpose of circumventing security controls
 
 ### Features
 * The KDD dataset has three types of features:
