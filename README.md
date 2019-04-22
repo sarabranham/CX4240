@@ -3,13 +3,14 @@
 
 ## Problem Background:
 * Machine learning techniques are a primary tool for analyzing network traffic and detecting cybersecurity attacks.
-* The National Institute of Standards in Technology reported that in 2017, American companies lost 65.6 billion dollars from IT attacks [1].
+    * Military, government, and commercial operations as well as civilians are affected daily by cybersecurity vulnerabilities. 
+    * The National Institute of Standards in Technology reported that in 2017, American companies lost 65.6 billion dollars from IT attacks [1].
 * Security industry is dependent on costly handling of enormous datasets that is done by hand.
     * Most of today’s machine-learning approaches rely on “anomaly detection,” which tends to trigger false positives
 * Therefore, a solution for identifying malicious attacks through a more efficient, effective and lower cost method is greatly needed.
 
 ## NSL-KDD Dataset:
-* Improved version of the KDD Cup 1999 Dataset
+* Improved version of the KDD Cup 1999 Dataset that was used to build a predictive model capable of detecting “bad'” connections (intrusions) and “good'” or normal connections [4]
 * Does not include the redundant records in the KDD'99 train set
 * The classifiers will not be biased towards more frequent records
 * The number of records in the train and test sets are reasonable
