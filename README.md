@@ -7,7 +7,7 @@
     * Military, government, and commercial operations as well as civilians are affected daily by cybersecurity vulnerabilities. 
     * The National Institute of Standards in Technology reported that in 2017, American companies lost 65.6 billion dollars from IT attacks [1].
 * Security industry is dependent on costly handling of enormous datasets that is done by hand.
-    * Most of today’s machine-learning approaches rely on “anomaly detection,” which tends to trigger false positives
+    * Most of today’s machine-learning approaches rely on “anomaly detection,” which tends to trigger false positives that both create distrust of the system and end up having to be investigated by humans anyway [2].
 * Therefore, a solution for identifying malicious attacks through a more efficient, effective and lower cost method is greatly needed.
 
 ## NSL-KDD Dataset:
